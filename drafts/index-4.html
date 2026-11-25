@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stanisław Wiąckowski – Eko</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* wariant 4: nowoczesny eko-brutalizm, jasny */
+:root{--bg:#fbfbf4;--ink:#111;--lime:#d4f25c;--sky:#bfe3d0;--sun:#ffd76a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 "Space Grotesk",system-ui,sans-serif}
+.wrap{max-width:1120px;margin:auto;padding:0 16px}
+.bar{display:flex;justify-content:space-between;padding:18px 0;font-weight:700;border-bottom:2px solid var(--ink)}
+.bar a{color:var(--ink);margin-left:18px}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:16px;padding:28px 0}
+.box{border:2px solid var(--ink);border-radius:22px;padding:28px;box-shadow:5px 5px 0 var(--ink)}
+h1{font-size:clamp(48px,9vw,104px);line-height:.9;margin:0;letter-spacing:-.04em}
+.hero .lime{background:var(--lime)}
+.hero .stack{display:grid;gap:16px}
+.sky{background:var(--sky)}.sun{background:var(--sun)}
+.big{font-size:56px;font-weight:700;line-height:1}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.chips span{border:2px solid var(--ink);border-radius:99px;padding:4px 14px;font-weight:500;background:var(--bg)}
+h2{font-size:clamp(36px,6vw,64px);letter-spacing:-.03em;margin:60px 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.book{display:flex;flex-direction:column;gap:10px}
+.book h3{margin:0;font-size:22px;line-height:1.15}
+.book .yr{font-weight:700}
+.book a,.book i{margin-top:auto;border:2px solid var(--ink);border-radius:99px;padding:10px;text-align:center;font-weight:700;font-style:normal;text-decoration:none;color:var(--ink)}
+.book a{background:var(--ink);color:var(--lime)}
+.book.hero-b{grid-column:span 2;background:var(--lime)}
+.book.hero-b h3{font-size:40px}
+.tl{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));border-top:2px solid var(--ink)}
+.tl div{padding:18px 14px 18px 0;border-right:2px solid var(--ink)}
+.tl div:last-child{border:0}
+.tl b{font-size:28px;display:block}
+footer{border-top:2px solid var(--ink);margin-top:70px;padding:22px 0;font-weight:500}
+footer a{color:var(--ink)}
+@media(max-width:720px){.hero{grid-template-columns:1fr}.book.hero-b{grid-column:auto}.tl div{border-right:0;border-bottom:2px solid var(--ink)}}
+</style>
+</head>
+<body><div class="wrap">
+<div class="bar"><span>🌍 wiackowski</span><span><a href="#bio">bio</a><a href="#ksiazki">książki</a></span></div>
+
+<div class="hero">
+  <div class="box lime"><h1>Stanisław Wiąckowski</h1>
+    <div class="chips"><span>🌲 leśnik</span><span>🐞 entomolog</span><span>🌱 ekolog</span><span>🏛 poseł</span></div></div>
+  <div class="stack">
+    <div class="box sky"><div class="big">20+</div>książek o ekologii, zdrowiu i żywieniu</div>
+    <div class="box sun"><div class="big">1929–2022</div>Przemyśl → Myślenice</div>
+  </div>
+</div>
+
+<h2 id="bio">Bio w pigułce</h2>
+<div class="tl">
+  <div><b>1952</b>SGGW, magister inżynier leśnictwa</div>
+  <div><b>1962</b>habilitacja</div>
+  <div><b>1975</b>Katedra Ekologii, WSP Kielce</div>
+  <div><b>1984</b>profesor zwyczajny</div>
+  <div><b>1989</b>poseł, szef Komisji Ochrony Środowiska</div>
+</div>
+
+<h2 id="ksiazki">Kup książkę</h2>
+<div class="grid">
+  <div class="box book hero-b"><span class="yr">★ dostępna teraz</span><h3>Leki z naturalnej apteki</h3><p>Książka o naturalnym leczeniu.</p><a target="_blank" rel="noopener" href="https://www.olx.pl/d/oferta/leki-z-naturalnej-apteki-ksiazka-o-naturalnym-leczeniu-CID751-IDSdyBn.html">Kup na OLX →</a></div>
+  <div class="box book"><span class="yr">1998</span><h3>Ekologia ogólna</h3><i>wkrótce</i></div>
+  <div class="box book"><span class="yr">2008</span><h3>Genetycznie modyfikowane organizmy</h3><i>wkrótce</i></div>
+  <div class="box book"><span class="yr">1992</span><h3>A, B, C… makrobiotyki</h3><i>wkrótce</i></div>
+  <div class="box book"><span class="yr">2000</span><h3>Przyrodnicze podstawy inżynierii środowiska</h3><i>wkrótce</i></div>
+</div>
+<footer>Na podstawie <a href="https://pl.wikipedia.org/wiki/Stanis%C5%82aw_Wi%C4%85ckowski">Wikipedii</a> · CC BY-SA</footer>
+</div></body></html>

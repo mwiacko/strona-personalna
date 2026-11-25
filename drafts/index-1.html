@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stanisław Wiąckowski – ekolog, profesor, poseł</title>
+<meta name="description" content="Prof. Stanisław Wiąckowski (1929–2022) – polski ekolog, entomolog, poseł na Sejm X kadencji. Książki i dorobek.">
+<style>
+:root{--bg:#f6f4ec;--ink:#1f2d22;--muted:#5b6b5e;--green:#2f6b3f;--leaf:#6fa35b;--moss:#dfe9d3;--card:#fff;--accent:#c98a2b}
+@media(prefers-color-scheme:dark){:root{--bg:#121a14;--ink:#e8efe4;--muted:#9bb0a0;--green:#7fc58e;--leaf:#6fa35b;--moss:#1c2a20;--card:#1a251d;--accent:#e0a64a}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Georgia,"Times New Roman",serif}
+h1,h2,h3,nav,.btn,.tag{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--green)}
+.wrap{max-width:1000px;margin:auto;padding:0 16px}
+nav{position:sticky;top:0;z-index:9;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--moss)}
+nav .wrap{display:flex;gap:20px;align-items:center;padding:12px 16px;font-size:15px}
+nav b{margin-right:auto;color:var(--green)}
+nav a{text-decoration:none;color:var(--ink)}
+nav a:hover{color:var(--green)}
+.hero{background:radial-gradient(circle at 85% 20%,var(--moss),transparent 55%);padding:90px 0 70px;position:relative;overflow:hidden}
+.hero .leaf{position:absolute;right:-40px;top:20px;width:340px;opacity:.9;color:var(--leaf)}
+.tag{display:inline-block;background:var(--moss);color:var(--green);padding:4px 14px;border-radius:99px;font-size:13px;letter-spacing:.05em;text-transform:uppercase;font-weight:600}
+h1{font-size:clamp(38px,7vw,68px);line-height:1.05;margin:18px 0 12px;letter-spacing:-.02em}
+h1 em{color:var(--green);font-style:normal}
+.lead{max-width:560px;font-size:20px;color:var(--muted)}
+.btn{display:inline-block;background:var(--green);color:#fff;padding:12px 24px;border-radius:99px;text-decoration:none;font-weight:600;font-size:15px;margin-top:10px;transition:.2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px #2f6b3f44}
+.btn.alt{background:transparent;color:var(--green);border:2px solid var(--green);margin-left:8px}
+section{padding:64px 0}
+h2{font-size:32px;margin:0 0 8px}
+h2::after{content:"";display:block;width:56px;height:4px;border-radius:2px;background:var(--leaf);margin-top:10px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:28px 0}
+.fact{background:var(--card);border-radius:16px;padding:18px;border:1px solid var(--moss)}
+.fact b{display:block;font:700 26px system-ui;color:var(--green)}
+.fact span{font:14px system-ui;color:var(--muted)}
+.timeline{border-left:3px solid var(--leaf);padding-left:22px;margin:24px 0}
+.timeline p{margin:0 0 16px;position:relative}
+.timeline p::before{content:"";position:absolute;left:-30px;top:9px;width:11px;height:11px;border-radius:50%;background:var(--bg);border:3px solid var(--leaf)}
+.timeline b{font-family:system-ui;color:var(--green)}
+.band{background:var(--moss)}
+.books{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:20px;margin-top:28px}
+.book{background:var(--card);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;border:1px solid var(--moss);transition:.2s}
+.book:hover{transform:translateY(-4px);box-shadow:0 12px 28px #0002}
+.cover{aspect-ratio:3/4;display:flex;align-items:flex-end;padding:16px;color:#fff;font:700 19px/1.2 system-ui;background:linear-gradient(160deg,var(--c1),var(--c2));position:relative}
+.cover::before{content:"🌿";position:absolute;top:12px;right:14px;font-size:26px;opacity:.85}
+.info{padding:14px 16px 18px;display:flex;flex-direction:column;gap:8px;flex:1;font:14px system-ui;color:var(--muted)}
+.info .btn{margin-top:auto;text-align:center;padding:10px;font-size:14px}
+.info .soon{margin-top:auto;text-align:center;padding:10px;border:1px dashed var(--muted);border-radius:99px}
+.book.featured{grid-column:1/-1;flex-direction:row;border:2px solid var(--accent)}
+.book.featured .cover{width:240px;aspect-ratio:auto;min-height:300px;flex:none;font-size:26px}
+.book.featured .info{padding:28px;font-size:16px;justify-content:center}
+.book.featured .info .btn{margin:6px 0 0;align-self:flex-start;padding:12px 26px;background:var(--accent);color:#1f2d22}
+.badge{font:700 12px system-ui;color:var(--accent);text-transform:uppercase;letter-spacing:.08em}
+@media(max-width:600px){.book.featured{flex-direction:column}.book.featured .cover{width:100%;min-height:220px}nav a:not(:first-of-type){display:none}.hero .leaf{width:200px;opacity:.4}}
+footer{padding:36px 0;text-align:center;font:14px system-ui;color:var(--muted)}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>🌱 S. Wiąckowski</b><a href="#o-mnie">Sylwetka</a><a href="#ksiazki">Książki</a><a href="#zrodlo">Źródło</a></div></nav>
+
+<header class="hero">
+  <svg class="leaf" viewBox="0 0 200 200" fill="currentColor" aria-hidden="true"><path d="M30 170C20 80 80 20 180 20c0 90-50 150-130 150"/><path d="M30 170C70 120 110 80 150 50" stroke="var(--bg)" stroke-width="4" fill="none"/></svg>
+  <div class="wrap">
+    <span class="tag">ekolog · profesor · poseł</span>
+    <h1>Stanisław<br><em>Wiąckowski</em></h1>
+    <p class="lead">Polski ekolog i entomolog, autor ponad dwudziestu publikacji o środowisku, żywieniu i naturalnej medycynie. 1929–2022.</p>
+    <a class="btn" href="#ksiazki">Zobacz książki</a><a class="btn alt" href="#o-mnie">Poznaj sylwetkę</a>
+  </div>
+</header>
+
+<section id="o-mnie"><div class="wrap">
+  <h2>Sylwetka</h2>
+  <div class="facts">
+    <div class="fact"><b>1929</b><span>Przemyśl – urodziny</span></div>
+    <div class="fact"><b>1984</b><span>profesor zwyczajny</span></div>
+    <div class="fact"><b>1989</b><span>poseł na Sejm X kadencji</span></div>
+    <div class="fact"><b>2022</b><span>Myślenice – zmarł 8 maja</span></div>
+  </div>
+  <div class="timeline">
+    <p><b>1952</b> – magister inżynier leśnictwa, Wydział Leśny SGGW w Warszawie.</p>
+    <p><b>1956 / 1962</b> – doktorat i habilitacja. Specjalizacja: ekologia, entomologia, inżynieria środowiska.</p>
+    <p><b>1956–1965</b> – kierownik pracowni w Instytucie Sadownictwa w Skierniewicach.</p>
+    <p><b>1966–1975</b> – Instytut Badawczy Leśnictwa w Krakowie i Katowicach.</p>
+    <p><b>od 1975</b> – Wyższa Szkoła Pedagogiczna w Kielcach, kierownik Katedry Ekologii i Ochrony Środowiska.</p>
+    <p><b>1989–1991</b> – poseł; przewodniczący Komisji Ochrony Środowiska, Zasobów Naturalnych i Leśnictwa, członek Parlamentarnego Klubu Ekologicznego.</p>
+  </div>
+  <p>Odznaczony Krzyżem Oficerskim (2000) i Kawalerskim (1987) Orderu Odrodzenia Polski oraz Złotym Krzyżem Zasługi (1979).</p>
+</div></section>
+
+<section id="ksiazki" class="band"><div class="wrap">
+  <h2>Książki</h2>
+  <p>Wybrane publikacje profesora. Tu będzie można je kupić.</p>
+  <div class="books">
+
+    <article class="book featured">
+      <div class="cover" style="--c1:#c98a2b;--c2:#7a8f3a">Leki z naturalnej apteki</div>
+      <div class="info">
+        <span class="badge">Dostępna teraz</span>
+        <h3 style="margin:0;font-size:24px;color:var(--ink)">Leki z naturalnej apteki</h3>
+        <span>Książka o naturalnym leczeniu. Egzemplarz dostępny w ofercie na OLX.</span>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.olx.pl/d/oferta/leki-z-naturalnej-apteki-ksiazka-o-naturalnym-leczeniu-CID751-IDSdyBn.html">Kup na OLX →</a>
+      </div>
+    </article>
+
+    <!-- ponytail: tytuły z Wikipedii, bez linków zakupu; podmień .soon na .btn gdy będą oferty -->
+    <article class="book"><div class="cover" style="--c1:#2f6b3f;--c2:#6fa35b">Ekologia ogólna<br>1998</div><div class="info">Podstawy ekologii.<span class="soon">wkrótce</span></div></article>
+    <article class="book"><div class="cover" style="--c1:#3d7a6b;--c2:#8bbf9f">Genetycznie modyfikowane organizmy<br>2008</div><div class="info">Obietnice i fakty.<span class="soon">wkrótce</span></div></article>
+    <article class="book"><div class="cover" style="--c1:#6b7f2f;--c2:#b5c85a">Abecadło witamin i pierwiastków<br>2004</div><div class="info">Zdrowie i odżywianie.<span class="soon">wkrótce</span></div></article>
+    <article class="book"><div class="cover" style="--c1:#4a6b3a;--c2:#9bbf6f">Ekologiczne kierunki w medycynie naturalnej<br>1993</div><div class="info">Medycyna naturalna.<span class="soon">wkrótce</span></div></article>
+    <article class="book"><div class="cover" style="--c1:#2f5f6b;--c2:#6fb0a3">Biologiczne metody ochrony roślin w Polsce<br>2006</div><div class="info">Historia, sukcesy, perspektywy.<span class="soon">wkrótce</span></div></article>
+    <article class="book"><div class="cover" style="--c1:#7a5a2f;--c2:#c9a35a">Żywienie, żywność, składniki pokarmowe a zdrowie<br>2005</div><div class="info">Ekologia żywienia.<span class="soon">wkrótce</span></div></article>
+  </div>
+</div></section>
+
+<section id="zrodlo"><div class="wrap">
+  <h2>Źródło</h2>
+  <p>Informacje biograficzne na podstawie <a href="https://pl.wikipedia.org/wiki/Stanis%C5%82aw_Wi%C4%85ckowski" target="_blank" rel="noopener">hasła w Wikipedii</a> (licencja CC BY-SA).</p>
+</div></section>
+
+<footer>🌱 stanislaw-wiackowski.pl · wersja robocza</footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "strona-personalna",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.168.0"
+  },
+  "private": true
+}

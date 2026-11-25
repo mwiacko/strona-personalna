@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"><link rel="icon" href="/favicon.svg"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Leki z naturalnej apteki – Stanisław Wiąckowski</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=EB+Garamond&display=swap" rel="stylesheet">
+<style>
+/* ponytail: styl skopiowany z index-2.html; wyciągnąć do wspólnego .css przy 3+ podstronach */
+:root{--paper:#efe6d2;--ink:#3b2f22;--sepia:#8a6a43;--fern:#4e6b3a;--line:#c9b994}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper) repeating-linear-gradient(0deg,transparent 0 31px,#0000000a 31px 32px);color:var(--ink);font:19px/1.7 "EB Garamond",Georgia,serif}
+.page{max-width:880px;margin:40px auto;padding:48px clamp(16px,6vw,72px);background:#f7f0de;border:1px solid var(--line);box-shadow:0 0 0 10px #f7f0de,0 0 0 11px var(--line),0 20px 60px #3b2f2230}
+h1,h2{font-family:"Cormorant Garamond",serif;font-weight:700;margin:0}
+a{color:var(--fern)}
+.back{font:italic 17px "Cormorant Garamond";text-decoration:none}
+.plate{font:italic 15px "Cormorant Garamond";color:var(--sepia);letter-spacing:.15em;text-transform:uppercase}
+.book{display:grid;grid-template-columns:280px 1fr;gap:44px;margin:30px 0;align-items:start}
+.cover{background:#fbf6e9;border:1px solid var(--line);padding:14px;position:relative;transform:rotate(-1.5deg)}
+.cover::before{content:"";position:absolute;top:-9px;left:50%;width:80px;height:18px;margin-left:-40px;background:#e6d9b8cc;transform:rotate(3deg)}
+.cover img{display:block;width:100%;height:auto}
+h1{font-size:clamp(40px,6vw,58px);line-height:1.05;color:var(--fern);margin:8px 0 4px}
+.by{font:italic 22px "Cormorant Garamond";color:var(--sepia)}
+.price{font:700 40px "Cormorant Garamond";color:var(--fern);margin:22px 0 4px}
+.price small{font:italic 16px "Cormorant Garamond";color:var(--sepia);margin-left:8px}
+.buy{display:inline-block;color:var(--paper);background:var(--fern);padding:10px 30px;text-decoration:none;font:italic 22px "Cormorant Garamond"}
+dl{display:grid;grid-template-columns:auto 1fr;gap:4px 18px;margin:26px 0 0;font-size:17px}
+dt{font:700 17px "Cormorant Garamond";color:var(--sepia)}
+dd{margin:0}
+h2{font-size:32px;color:var(--fern);text-align:center;margin:50px 0 16px}
+.desc{column-count:2;column-gap:40px;border-top:1px solid var(--line);padding-top:24px}
+.desc p{margin:0 0 14px}
+.desc p:first-child::first-letter{float:left;font:700 64px/0.85 "Cormorant Garamond";color:var(--fern);margin:6px 8px 0 0}
+.author{display:flex;gap:20px;align-items:center;border:1px solid var(--line);background:#fbf6e9;padding:22px;margin-top:40px}
+.author b{font-family:"Cormorant Garamond";font-size:22px}
+footer{text-align:center;font:italic 15px "Cormorant Garamond";color:var(--sepia);margin-top:44px;border-top:1px solid var(--line);padding-top:20px}
+@media(max-width:680px){.book{grid-template-columns:1fr}.cover{max-width:260px;margin:auto}.desc{column-count:1}}
+</style>
+</head>
+<body><div class="page">
+<a class="back" href="/">← powrót do strony głównej</a>
+
+<div class="book">
+  <!-- ponytail: zdjęcie hotlinkowane z OLX, zniknie razem z ogłoszeniem; podmień na własny skan okładki -->
+  <div class="cover"><img src="https://ireland.apollo.olxcdn.com:443/v1/files/g2ir67qdupuu2-PL/image;s=756x1008" alt="Okładka książki Leki z naturalnej apteki" width="756" height="1008"></div>
+  <div>
+    <span class="plate">Książka · dostępna teraz</span>
+    <h1>Leki z naturalnej apteki</h1>
+    <div class="by">Stanisław Wiąckowski</div>
+    <div class="price">50 zł <small>cena z ogłoszenia OLX</small></div>
+    <a class="buy" target="_blank" rel="noopener" href="https://www.olx.pl/d/oferta/leki-z-naturalnej-apteki-ksiazka-o-naturalnym-leczeniu-CID751-IDSdyBn.html">kup na OLX</a>
+    <dl>
+      <dt>Autor</dt><dd>prof. Stanisław Wiąckowski</dd>
+      <dt>Temat</dt><dd>naturalne leczenie, zdrowie, żywienie</dd>
+      <dt>Stan</dt><dd>nowa</dd>
+    </dl>
+  </div>
+</div>
+
+<h2>O książce</h2>
+<div class="desc">
+  <p>Stan zdrowia naszego społeczeństwa szybko się pogarsza. Jest to tym bardziej szokujące, że w międzyczasie niebywale rozwinęły się przemysły, których podstawowym celem powinien być pozytywny wpływ na zdrowie – jak farmacja, medycyna i przemysł żywnościowy.</p>
+  <p>Organizm człowieka nie cierpi na żadną chorobę z braku leków, zwłaszcza patentowanych syntetyków chemicznych obcych dla organizmu, ale z braku substancji naturalnych, których niedobór doprowadził do choroby.</p>
+  <p>Coraz więcej pacjentów chce mieć dostęp do naturalnych leków, aby zapobiegać chorobom i leczyć przyczyny, a nie objawy.</p>
+</div>
+
+<div class="author">
+  <div><b>O autorze</b><br>Prof. Stanisław Wiąckowski (1929–2022) – ekolog i entomolog, wieloletni kierownik Katedry Ekologii i Ochrony Środowiska WSP w Kielcach, poseł na Sejm X kadencji. <a href="/">Czytaj więcej →</a></div>
+</div>
+
+<footer>© 2026 Strona personalna Stanisława Wiąckowskiego. Wszelkie prawa zastrzeżone. · <a href="/kontakt">Kontakt</a></footer>
+</div></body></html>

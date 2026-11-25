@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "strona-personalna",
+  "compatibility_date": "2026-11-01",
+  // Tylko pliki statyczne z public/ – bez kodu Workera.
+  "assets": { "directory": "./public" },
+  // Domena podpinana automatycznie przy deployu (rekordy DNS tworzy Cloudflare).
+  "routes": [
+    { "pattern": "stanislaw.wiackowski.pl", "custom_domain": true }
+  ]
+}
