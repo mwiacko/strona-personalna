@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stanislaw.wiackowski.pl/sitemap.xml
